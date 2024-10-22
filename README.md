@@ -47,4 +47,4 @@
 <img src="https://github.com/gabirelul/IR_CTI_3/blob/main/Tema_1/media/sch.jpg?raw=true" width="300"/>
 
 ### Video:
-[Descarcă video](https://github.com/gabirelul/IR_CTI3/blob/main/Tema_1_robo/media/vid.mp4?raw=true)
+[Descarcă video](https://github.com/gabirelul/IR_CTI_3/blob/main/Tema_1/media/vid.mp4?raw=true)

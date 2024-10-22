@@ -1,6 +1,5 @@
-# IR_CTI3
 ## Introducere în Robotică
-
+# Tema 1
 ### Cerință:
 > Simularea unei stații de încărcare vehicule electrice, folosind mai multe LED-uri și butoane.
 

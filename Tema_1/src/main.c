@@ -49,14 +49,14 @@ void setup()
   digitalWrite(ledL4, LOW);
 }
 
-void blinkLed(int ledPin)
+void blinking(int nrLed)
 {
   unsigned long startMillis = millis();
   while (millis() - startMillis < interval)
   {
-    digitalWrite(ledPin, HIGH);
+    digitalWrite(nrLed, HIGH);
     delay(500);
-    digitalWrite(ledPin, LOW);
+    digitalWrite(nrLed, LOW);
     delay(500);
   }
 }
@@ -93,7 +93,7 @@ void loop()
   int readingStart = digitalRead(butonStart);
   int readingStop = digitalRead(butonStop);
 
-  // buton Start
+  // buton start
   if (readingStart != lastButtonStateStart)
     lastDebounceStart = millis();
 
@@ -141,25 +141,25 @@ void loop()
 
     if (currentLED == 1)
     {
-      blinkLed(ledL1);
+      blinking(ledL1);
       digitalWrite(ledL1, HIGH);
       previousMillis = currentMillis;
     }
     if (currentLED == 2)
     {
-      blinkLed(ledL2);
+      blinking(ledL2);
       digitalWrite(ledL2, HIGH);
       previousMillis = currentMillis;
     }
     if (currentLED == 3)
     {
-      blinkLed(ledL3);
+      blinking(ledL3);
       digitalWrite(ledL3, HIGH);
       previousMillis = currentMillis;
     }
     if (currentLED == 4)
     {
-      blinkLed(ledL4);
+      blinking(ledL4);
       digitalWrite(ledL4, HIGH);
       previousMillis = currentMillis;
     }

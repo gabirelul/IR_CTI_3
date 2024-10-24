@@ -136,7 +136,7 @@ void loop()
 
   if (charging == 1)
   {
-    static unsigned long previousMillis = 0;
+    unsigned long previousMillis = 0;
     unsigned long currentMillis = millis();
 
     if (currentLED == 1)
@@ -163,12 +163,9 @@ void loop()
       digitalWrite(ledL4, HIGH);
       previousMillis = currentMillis;
     }
-
     currentLED++;
     if (currentLED > 4)
-    {
       animatie_final();
-    }
   }
   lastButtonStateStart = readingStart;
   lastButtonStateStop = readingStop;

@@ -50,7 +50,7 @@
 <img src="https://github.com/gabirelul/IR_CTI_3/blob/main/Tema_1/media/sch.jpg?raw=true" width="300"/>
 
 ### Video:
-[Descarcă video](https://github.com/gabirelul/IR_CTI_3/blob/main/Tema_1/media/vid.mp4?raw=true)
+Sursa video: github.com/gabirelul/IR_CTI_3/blob/main/Tema_1/media/vid.mp4
 </details>
 
 
@@ -130,6 +130,6 @@
 <img src="https://github.com/gabirelul/IR_CTI_3/blob/main/Tema_2/media/wokwi.jpg?raw=true" width="300"/>
 
 ### Video:
-[Descarcă video](https://github.com/gabirelul/IR_CTI_3/blob/main/Tema_1/media/vid.mov?raw=true)
+Sursa video: github.com/gabirelul/IR_CTI_3/blob/main/Tema_2/media/vid.MOV
 </details>
 

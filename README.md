@@ -1,5 +1,8 @@
-## Introducere în Robotică
-# Tema 1
+<details>
+  <summary>
+    Tema 1
+  </summary>
+  
 ### Cerință:
 > Simularea unei stații de încărcare vehicule electrice, folosind mai multe LED-uri și butoane.
 
@@ -48,3 +51,85 @@
 
 ### Video:
 [Descarcă video](https://github.com/gabirelul/IR_CTI_3/blob/main/Tema_1/media/vid.mp4?raw=true)
+</details>
+
+
+<details>
+  <summary>
+    Tema 2
+  </summary>
+  
+### Cerință:
+> Crearea unui joc asemănător cu TypeRacer
+
+### Detalii tehnice: 
+> **LED RGB - Indicator de stare:**
+> În starea de repaus, LED-ul va avea culoarea albă.
+> La apăsarea butonului de start, LED-ul va clipi timp de 3 secunde, indicând o numărătoare inversă până la începerea rundei.
+> În timpul unei runde: LED-ul va fi verde dacă textul introdus este corect și va deveni roșu în caz de greșeală.
+
+> **Butonul Start/Stop:**
+> Modul de repaus: Dacă jocul este oprit, apăsarea butonului inițiază o nouă rundă după o numărătoare inversă de 3 secunde.
+> În timpul unei runde: Dacă runda este activă, apăsarea butonului o va opri imediat.
+
+> **Butonul de dificultate:**
+> Butonul de dificultate controlează viteza cu care apar cuvintele și poate fi folosit doar în starea de repaus.
+> La fiecare apăsare, dificultatea se schimbă ciclind între: (Easy, Medium, Hard).
+> La schimbarea dificultății, se trimite un mesaj prin serial: “Easy/Medium/Hard mode on!”.
+> Pentru gestionarea apăsărilor butoanelor, se utilizează debouncing și întreruperi. Timerele sunt folosite pentru a seta frecvența apariției cuvintelor.
+
+> **Generarea cuvintelor:**
+> Se va crea un dicționar de cuvinte.
+> În timpul unei runde, cuvintele vor fi afișate în terminal într-o ordine aleatorie.
+> Dacă cuvântul curent a fost scris corect, un cuvânt nou va fi afișat imediat. Dacă nu, un nou cuvânt va apărea după intervalul de timp stabilit în funcție de dificultate.
+> Pentru a genera numere aleatorii, se utilizează funcția `random()`.
+
+> **Alte observații:**
+> Timpul alocat pentru o rundă este de 30 de secunde.
+> La sfârșitul fiecărei runde, se va afișa în terminal câte cuvinte au fost scrise corect.
+
+### Pentru acest proiect am folosit:
+> Arduino UNO (ATmega328P microcontroller)
+> 
+> 1x LED RGB (pentru a semnaliza dacă cuvântul corect e scris greșit sau nu)
+> 
+> 2x Butoane (pentru start/stop rundă și pentru selectarea dificultății)
+> 
+> 5x Rezistoare (3x 220/330 ohm, 2x 1000 ohm)
+> 
+> Breadbord
+> 
+> Fire de legătură
+
+### Cum funcționează?
+> Jocul este în repaus. LED-ul RGB are culoarea albă.
+
+> Se alege dificultatea jocului folosind butonul de dificultate, iar în terminal va apărea “Easy/Medium/Hard mode on!”.
+
+> Se apasă butonul de start/stop.
+
+> LED-ul clipește timp de 3 secunde, iar în terminal se va afișa numărătoarea înversă: 3, 2, 1.
+
+> LED-ul devine verde și încep să apară cuvinte de tastat.
+
+> La tastarea corectă, următorul cuvânt apare imediat. Dacă nu se tastează cuvântul în timpul stabilit de dificultate, va apărea un nou cuvânt.
+
+> O greșeală face LED-ul să devină roșu. Pentru a corecta cuvântul, se va folosi tasta BackSpace.
+
+> După 30 de secunde, runda se termină, iar în terminal se va afișa scorul: numărul total de cuvinte scrise corect.
+
+> Jocul se poate opri oricând cu butonul de start/stop.
+
+### Poze cu implementarea pe breadboard:
+<p>
+  <img src="https://github.com/gabirelul/IR_CTI_3/blob/main/Tema_2/media/1.JPG?raw=true" width="300"/>
+  <img src="https://github.com/gabirelul/IR_CTI_3/blob/main/Tema_2/media/2.JPG?raw=true" width="300"/>
+</p>
+
+### Schema electrică
+<img src="https://github.com/gabirelul/IR_CTI_3/blob/main/Tema_2/media/wokwi.jpg?raw=true" width="300"/>
+
+### Video:
+[Descarcă video](https://github.com/gabirelul/IR_CTI_3/blob/main/Tema_1/media/vid.mov?raw=true)
+</details>
+

@@ -53,7 +53,6 @@
 <a href="https://github.com/gabirelul/IR_CTI_3/blob/main/Tema_1/media/vid.mp4?raw=true" download="Tema1_Video.mp4">Descarcă video Tema 1</a>
 </details>
 
-
 <details>
   <summary>
     Tema 2
@@ -181,7 +180,7 @@ Această temă reprezintă un joc competitiv de reflex pentru doi jucători. Sco
 <img src="https://github.com/gabirelul/IR_CTI_3/blob/main/Tema_3/media/video.MP4?raw=true" width="300"/>
 
 ## Video
-<a href="https://github.com/gabirelul/IR_CTI_3/blob/main/Tema_3/media/video.MP4?raw=true" download="Tema2_Video.MOV">Descarcă video Tema 3</a>
+<a href="https://github.com/gabirelul/IR_CTI_3/blob/main/Tema_3/media/video.MP4?raw=true" download="Tema2_Video.mp4">Descarcă video Tema 3</a>
 
 ## Publicare
 Codul proiectului se găsește pe GitHub și include toate detaliile necesare pentru replicarea proiectului.

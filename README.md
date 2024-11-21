@@ -177,7 +177,7 @@ Această temă reprezintă un joc competitiv de reflex pentru doi jucători. Sco
 </p>
 
 ## Schema electrică
-<img src="https://github.com/gabirelul/IR_CTI_3/blob/main/Tema_3/media/video.MP4?raw=true" width="300"/>
+<img src="https://github.com/gabirelul/IR_CTI_3/blob/main/Tema_3/media/schema.JPG?raw=true" width="300"/>
 
 ## Video
 <a href="https://github.com/gabirelul/IR_CTI_3/blob/main/Tema_3/media/video.MP4?raw=true" download="Tema3_Video.MP4">Descarcă video Tema 3</a>

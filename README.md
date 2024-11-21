@@ -170,11 +170,11 @@ Această temă reprezintă un joc competitiv de reflex pentru doi jucători. Sco
 
 ## Poze cu implementarea pe breadboard
 <p>
-  <img src="https://github.com/gabirelul/IR_CTI_3/blob/main/Tema_3/media/1.jpg?raw=true" width="300"/>
-  <img src="https://github.com/gabirelul/IR_CTI_3/blob/main/Tema_3/media/2.jpg?raw=true" width="300"/>
-  <img src="https://github.com/gabirelul/IR_CTI_3/blob/main/Tema_3/media/3.jpg?raw=true" width="300"/>
-  <img src="https://github.com/gabirelul/IR_CTI_3/blob/main/Tema_3/media/4.jpg?raw=true" width="300"/>
-  <img src="https://github.com/gabirelul/IR_CTI_3/blob/main/Tema_3/media/5.jpg?raw=true" width="300"/>
+  <img src="https://github.com/mariaxadina/Robotica/blob/main/Tema_3/media/1.JPG?raw=true" width="300"/>
+  <img src="https://github.com/mariaxadina/Robotica/blob/main/Tema_3/media/2.JPG?raw=true" width="300"/>
+  <img src="https://github.com/mariaxadina/Robotica/blob/main/Tema_3/media/3.JPG?raw=true" width="300"/>
+  <img src="https://github.com/mariaxadina/Robotica/blob/main/Tema_3/media/4.JPG?raw=true" width="300"/>
+  <img src="https://github.com/mariaxadina/Robotica/blob/main/Tema_3/media/5.JPG?raw=true" width="300"/>
 </p>
 
 ## Schema electrică
